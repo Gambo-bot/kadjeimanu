@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAM SITE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #1c1b24;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        .main-news {
+            flex: 3;
+            background: white;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .news-card {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+
+        .news-card:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KAM COMPREHENSIVE SITE</h1>
+    <p>ALL IN ONE EMBEDED</p>
+</header>
+
+<nav>
+    <a href="website.html">Home</a>
+    <a href="demo.html">ELECTIONS CALCULATOR</a>
+    <a href="news.html">ELECTIONS TOUR NEWS</a>
+</nav>
+
+<div class="container">
+
+    <div class="main-news">
+        <h2>Welcome to June</h2>
+
+        <div class="news-card">
+<style>
+.floating-image {
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+</style>
+            <img src="C:\Users\USER\OneDrive\Desktop\NMKAM.png" alt="NMKAM logo showing bold red uppercase letters NMKAM centered on a white background, clear sans serif type conveys a confident, energetic campaign or organizational identity" class="floating-image">
+            <h3>Welcome to June</h3>
+            <p>
+                This is a sample news article. Replace this text with your
+                latest news story and details.
+            </p>
+        </div>
+
+        <div class="news-card">
+            <h3>Technology Update</h3>
+            <p>
+                New innovations are transforming industries around the world.
+            </p>
+        </div>
+
+        <div class="news-card">
+            <h3>Sports Highlights</h3>
+            <p>
+                Catch up with the latest sports results and updates.
+            </p>
+        </div>
+    </div>
+
+    <div class="summary"></div>
+        <h3>Trending News</h3>
+    <div class="results" id="results"></div>
+</div>
+
+<div class="chart-wrapper">
+    <canvas id="chart"></canvas>
+</div>
+</div>
+<br> <br>
+
+
+
+<footer>
+    <p>&copy; 2026 KAM SITE. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
